@@ -7,6 +7,12 @@ body {
 	box-sizing: border-box; 
 	font-family: 'Poppins', sans-serif; 
 } 
+body {
+    background-image: url('https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L2ZsMzYyNjkxODE2NDItcHVibGljLWltYWdlLWtvbnFxczZlLmpwZw.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional: Keeps the background fixed while scrolling */
+}
 /* Header Navbar Styles */
 .navbar { 
 	display: flex; 
