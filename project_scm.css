@@ -75,7 +75,7 @@
 	.btn { 
 		padding: 10px 30px; 
 	} 
-
+	
 	.logo { 
 		padding: 0 2rem; 
 	} 
@@ -166,6 +166,6 @@
 	} 
 
 	.footer-list-items { 
-		margin: 0; 
+		margin: 12px; 
 	} 
 }
