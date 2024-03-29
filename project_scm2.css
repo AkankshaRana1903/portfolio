@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* Styles defined for the desktop or the bigger screen devices*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
 .header {
@@ -441,7 +441,7 @@ body {
 .blue-text { 
 	color: #363D73; 
 }
-=======
+
 /* Styles defined for the desktop or the bigger screen devices*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
 .header {
@@ -884,4 +884,4 @@ body {
 .blue-text { 
 	color: #363D73; 
 }
->>>>>>> 444285e4a342f69b38a56a38b99dfce3be69a13a
+
