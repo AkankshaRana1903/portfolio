@@ -257,14 +257,15 @@
 		<div class="contact-content"> 
 			<div class="contact-form-container"> 
 				<h1 class="greet-heading">Get In Touch</h1> 
-				<form class="contact-form"> 
-					<input class="form-controls" type="text"
+				<form class="contact-form" id="contactForm">
+					<div id="messageSent" style="display:none;"></div> 
+					<input class="form-controls" type="text" id="nameInput"
 						placeholder="Your Name"> 
-					<input class="form-controls" type="text"
+					<input class="form-controls" type="text" id="emailInput"
 						placeholder="Your Email"> 
-					<input class="form-controls" type="text"
+					<input class="form-controls" type="text" id="phoneInput"
 						placeholder="Your Phone"> 
-					<textarea class="form-controls"
+					<textarea class="form-controls" id="messageInput"
 							placeholder="Write your message"
 							name="message" id="text" cols="30"
 							rows="10"> 
