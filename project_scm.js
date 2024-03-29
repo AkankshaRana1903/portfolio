@@ -15,6 +15,33 @@ hamburger.addEventListener('click', function () {
 		menu.style.display = "block"
 	} 
 });
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+	event.preventDefault(); // Prevent form submission
 
+	// Get form values
+	var name = document.getElementById('nameInput').value.trim();
+	var email = document.getElementById('emailInput').value.trim();
+	var phone = document.getElementById('phoneInput').value.trim();
+	var message = document.getElementById('messageInput').value.trim();
+
+	// Check if all fields are filled
+	if (name !== '' && email !== '' && phone !== '' && message !== '') {
+		// Show confirmation message
+		document.getElementById('messageSent').style.display = 'block';
+		document.getElementById('messageSent').innerHTML = 'Message sent!';
+
+		// Reset form fields
+		document.getElementById('contactForm').reset();
+
+		// Hide confirmation message after 3 seconds
+		setTimeout(function() {
+			document.getElementById('messageSent').style.display = 'none';
+		}, 3000);
+	} else {
+		// Show error message if any field is empty
+		document.getElementById('messageSent').style.display = 'block';
+		document.getElementById('messageSent').innerHTML = 'Please fill in all fields.';
+	}
+});
 
 
